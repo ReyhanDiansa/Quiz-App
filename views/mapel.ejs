@@ -1,0 +1,43 @@
+<%
+  // Connect to the MongoDB database
+  // var url = 'mongodb://localhost:27017/quiz2';
+
+  // MongoClient.connect(url, function(err, db) {
+  //   if (err) throw err;
+
+  //   // Get the "nilais" and "quizzes" collections
+  //   var nilaisCollection = db.collection('nilais');
+  //   var quizzesCollection = db.collection('soal_jawabs');
+
+    // Find the nilais document for the current user
+    Nilai.findOne({id_user: id_user }).toArray(function(err, nilais) {
+      if (err) throw err;
+    console.log(nilais)
+      // Find the quiz document for the current user
+      Quiz.findOne({id_user:id_user, _id:nilais.id_mapel}).toArray( function(err, quiz) {
+        if (err) throw err;
+         quiz.forEach((element) => {
+        // Check if the quiz has been completed
+        if (nilais.isCompleted) {
+          
+          // The quiz has been completed, so disable the button
+%> 
+          <button disabled>
+            <%= quiz.nama_mapel %>
+          </button>
+<%
+        } else {
+          // The quiz has not been completed, so enable the button
+%>
+          <button>
+            <%= quiz.nama_mapel %>
+          </button>
+<%
+        }
+      });
+
+        // db.close();
+      });
+    });
+  
+%>

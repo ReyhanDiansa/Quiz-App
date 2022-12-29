@@ -1,0 +1,34 @@
+<% if (nilai =='') { %>
+ <h1>belum ada yang anda kerjakan</h1>
+<% } else{%>
+<table class="table table-striped mt-3 text-center">
+    <thead class="text-white bg-primary">
+        <tr>
+            <th scope="col">No</th>
+            <th scope="col">Mata Pelajaran</th>
+            <th scope="col">Nilai</th>
+            <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% nilai.forEach((result,i) => {i++ %>
+          <tr>
+            <th scope="row"><%= i++ %> </th>
+            <td><%= result.nama_mapel %></td>
+            <td><%= result.nilai %></td>
+            <td><% if (result.nilai<70) { %>
+                <div class="alert alert-danger text-center mx-auto" role="alert" style="width:50%;">
+                    Tidak Lulus
+                  </div>
+            <% } else {%>
+                <div class="alert alert-success text-center mx-auto" role="alert" style="width:50%;">
+                    Lulus
+                  </div>
+            <% } %> </td>
+          </tr>
+          <% }) %>
+          
+        </tbody>
+      </table>
+      <hr>
+<% }%>

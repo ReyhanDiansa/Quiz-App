@@ -1,0 +1,90 @@
+<!-- script disable browser back button -->
+<script type="text/javascript">
+  function preventBack() {
+      window.history.forward(); 
+  }
+    
+  setTimeout("preventBack()", 0);
+    
+  window.onunload = function () { null };
+</script>
+
+<div class="card mb-3 mt-5">
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+      <p class="card-text"><%= quiz.q_a[id_soal].q %> </p>
+      
+
+          <!-- apabila id_soal +1 (karena id soal dimulai dari 0 / sesuai indeks array) sama dengan jumlah soal maka tampilkan tombol selesai, dan jika tidak sama maka tampilkan tombol next untuk lanjut ke soal berikutnya -->
+    <% if (id_soal+1===row[0].q_a_length) { %>
+      <form action="/quiz/next" method="post">
+          <input type="hidden" name="id_soal" value=<%= id_soal %> >
+          <input type="hidden" name="id_mapel" value=<%= id_mapel %> >
+          <input type="hidden" name="_id" value=<%= _id %> >                  
+          <input type="hidden" name="username" value=<%= username %> >          
+          <input type="hidden" name="id_user" value=<%= id_user %> >          
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[0].isCorrect %> ><%= quiz.q_a[id_soal].a[0].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[1].isCorrect %>><%= quiz.q_a[id_soal].a[1].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[2].isCorrect %>><%= quiz.q_a[id_soal].a[2].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[3].isCorrect %>><%= quiz.q_a[id_soal].a[3].text %> 
+          <br>
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[4].text %>><%= quiz.q_a[id_soal].a[4].text %> 
+          <br>
+              <button type="submit"  class="btn btn-success mt-3">selesai</button>
+      </form>
+    <% } else { %>
+        <form action="/quiz/next" method="post">
+          <input type="hidden" name="id_soal" value=<%= id_soal %> >
+          <input type="hidden" name="id_mapel" value=<%= id_mapel %> >
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[0].isCorrect %> ><%= quiz.q_a[id_soal].a[0].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[1].isCorrect %>><%= quiz.q_a[id_soal].a[1].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[2].isCorrect %>><%= quiz.q_a[id_soal].a[2].text %>
+          <br> 
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[3].isCorrect %>><%= quiz.q_a[id_soal].a[3].text %> 
+          <br>
+          <input type="radio" 
+          aria-label="Radio button for following text input" 
+          name="answer" 
+          value=<%= quiz.q_a[id_soal].a[4].isCorrect %>><%= quiz.q_a[id_soal].a[4].text %> 
+          <br>
+          <button type="submit" class="btn btn-primary mt-3" >next</button>
+        </form>
+    <% } %>
+
+    </div>
+    </div>
+
+    

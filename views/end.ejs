@@ -1,0 +1,21 @@
+<!-- jadi karena skor defaultnya 1 apabila nilainya tetap 1, maka jawaban tidak ada yang benar sama sekali sehingga skor harus diset menjadi 0 -->
+
+
+<!-- <div class="card mt-3 text-center">
+    <div class="card-body">
+      <h5 class="card-title">Perolehan Nilai </h5>
+      <h3></h3>
+      <br><h1 style="color: blue;"></h1>
+      <a href="/" class="btn btn-primary">Kembali</a> 
+    </div>
+  </div> -->
+  
+  <div class="alert alert-success mt-3" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Terima Kasih sudah Mengerjakan!!!!</p>
+    <hr>
+    <form action="/skor" method="post">
+      <input type="hidden" name="id_mapel" value=<%= id_mapel %> >
+      <button class="btn btn-primary">lihat skor</button>
+    </form>
+  </div>

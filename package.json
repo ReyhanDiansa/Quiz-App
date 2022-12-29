@@ -1,0 +1,28 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "disable-browser-back-navigation": "^0.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.3",
+    "jsdom": "^20.0.3",
+    "mongoose": "^6.8.1",
+    "sweetalert2": "^11.6.16",
+    "url": "^0.11.0"
+  }
+}
