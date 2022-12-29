@@ -37,6 +37,7 @@ Install package with npm
 - cookie-parser
 - flash
 - express-ejs-layouts
+- cors
 
 
 
