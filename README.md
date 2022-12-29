@@ -1,6 +1,12 @@
 # Simple Quiz App
 
 Website kuis sederhana
+
+## Screenshots
+
+![App Screenshot](https://github.com/ReyhanDiansa/Quiz-App/blob/main/assets/images/home.png)
+
+
 ## Installation
 
 Install package with npm
