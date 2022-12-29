@@ -2,7 +2,7 @@
 
 Website kuis sederhana
 
-## Screenshots
+## Documentation
 
 ![App Screenshot](https://github.com/ReyhanDiansa/Quiz-App/blob/main/assets/images/home.png)
 
