@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "63adb8497ec9066f766f4241"
+  },
+  "id_user": "63a99184e3ade434a5a75727",
+  "username": "reyhan",
+  "id_mapel": "63a443ea82957997d21bb32e",
+  "nama_mapel": "HTML&CSS",
+  "nilai": "100",
+  "isCompleted": true,
+  "__v": 0
+}]

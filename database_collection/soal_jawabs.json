@@ -1,0 +1,899 @@
+[{
+  "_id": {
+    "$oid": "63a43fd2b24df2f18944a72f"
+  },
+  "id_mapel": "1",
+  "nama_mapel": "basis data",
+  "q_a": [
+    {
+      "id_soal": "1",
+      "q": "Query yang dibuat dengan cara menggabungkan beberapa table sehingga didapatkan sekelompok data yang ditampilkan dalam format datasheet adalah pengertian dari ....",
+      "a": [
+        {
+          "text": "Parameter Query",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a731"
+          }
+        },
+        {
+          "text": "Crosstab Query",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a732"
+          }
+        },
+        {
+          "text": "Select Query",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a733"
+          }
+        },
+        {
+          "text": "Action Query",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a734"
+          }
+        },
+        {
+          "text": "SQL Queries",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a735"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a730"
+      }
+    },
+    {
+      "id_soal": "2",
+      "q": " Suatu langkah untuk menyelesaikan sebuah masalah secara logis dan sistematis adalah...",
+      "a": [
+        {
+          "text": "Pseudocode",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a737"
+          }
+        },
+        {
+          "text": "Fungsi",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a738"
+          }
+        },
+        {
+          "text": "Array",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a739"
+          }
+        },
+        {
+          "text": "Algortima",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a73a"
+          }
+        },
+        {
+          "text": "Pemrogaman",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a73b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a736"
+      }
+    },
+    {
+      "id_soal": "3",
+      "q": " Dibawah ini yang termasuk kegunaan dari MySQL adalah…",
+      "a": [
+        {
+          "text": "Sebuah System manajemen database",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a73d"
+          }
+        },
+        {
+          "text": "Koneksi Cepat",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a73e"
+          }
+        },
+        {
+          "text": "Mudah digunakan",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a73f"
+          }
+        },
+        {
+          "text": "Efisien",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a740"
+          }
+        },
+        {
+          "text": "Akses Cepat",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a741"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a73c"
+      }
+    },
+    {
+      "id_soal": "4",
+      "q": "Suatu aplikasi berbasis PHP yang berguna untuk pengelolaan administrasi database MySQL berbasis GUI adalah….",
+      "a": [
+        {
+          "text": "UWampMyAdmin",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a743"
+          }
+        },
+        {
+          "text": "Wamp Server",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a744"
+          }
+        },
+        {
+          "text": "PHPMyAdmin",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a745"
+          }
+        },
+        {
+          "text": "EasyPHP",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a746"
+          }
+        },
+        {
+          "text": "AMPPS",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a747"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a742"
+      }
+    },
+    {
+      "id_soal": "5",
+      "q": "Kepanjangan dari PHP adalah...",
+      "a": [
+        {
+          "text": "Personal Hiden Privasi",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a749"
+          }
+        },
+        {
+          "text": "Personal Hiden Page",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a74a"
+          }
+        },
+        {
+          "text": "Page Hiden Personal",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a74b"
+          }
+        },
+        {
+          "text": "Personal Home Privasi",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a74c"
+          }
+        },
+        {
+          "text": "Personal Home Page",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a74d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a748"
+      }
+    },
+    {
+      "id_soal": "6",
+      "q": "Port dari MySQL adalah …",
+      "a": [
+        {
+          "text": "3205",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a74f"
+          }
+        },
+        {
+          "text": "3306",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a750"
+          }
+        },
+        {
+          "text": "3002",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a751"
+          }
+        },
+        {
+          "text": "3450",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a752"
+          }
+        },
+        {
+          "text": "3000",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a753"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a74e"
+      }
+    },
+    {
+      "id_soal": "7",
+      "q": "MySQL memilki ragam tipe data yang sangat kaya, diantaranya...",
+      "a": [
+        {
+          "text": "Integer",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a755"
+          }
+        },
+        {
+          "text": "Float",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a756"
+          }
+        },
+        {
+          "text": "Double",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a757"
+          }
+        },
+        {
+          "text": "Text",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a758"
+          }
+        },
+        {
+          "text": "Semua jawaban benar",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a759"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a754"
+      }
+    },
+    {
+      "id_soal": "8",
+      "q": "Tempat dimana user meletakkan file-file data yang diperlukan oleh sebuah website ataupun aplikasi adalah….",
+      "a": [
+        {
+          "text": "Database",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a75b"
+          }
+        },
+        {
+          "text": "Sistem",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a75c"
+          }
+        },
+        {
+          "text": "Server",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a75d"
+          }
+        },
+        {
+          "text": "Client",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a75e"
+          }
+        },
+        {
+          "text": "Model",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a75f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a75a"
+      }
+    },
+    {
+      "id_soal": "9",
+      "q": "Pada tingkat pemakai, data base dikelompokkan menjadi beberapa tingkat pemakai. Diantaranya adalah user yang menjadi pusat pengendali seluruh basis data. Yang biasa kita sebut dengan ....",
+      "a": [
+        {
+          "text": "Database Administrator",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a761"
+          }
+        },
+        {
+          "text": "Database Designer",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a762"
+          }
+        },
+        {
+          "text": "Application Progammer",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a763"
+          }
+        },
+        {
+          "text": "End User",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a764"
+          }
+        },
+        {
+          "text": "System Analyst",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a765"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a760"
+      }
+    },
+    {
+      "id_soal": "10",
+      "q": "Obyek basis data yang digunakan sebagai sarana untuk menyimpan data adalah pengertian dari...",
+      "a": [
+        {
+          "text": "Queries",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a767"
+          }
+        },
+        {
+          "text": "Tables",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a768"
+          }
+        },
+        {
+          "text": "Form",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a769"
+          }
+        },
+        {
+          "text": "Hardisk",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a76a"
+          }
+        },
+        {
+          "text": "Hardisk",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a43fd2b24df2f18944a76b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a43fd2b24df2f18944a766"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a443ea82957997d21bb32e"
+  },
+  "id_mapel": "2",
+  "nama_mapel": "HTML&CSS",
+  "q_a": [
+    {
+      "id_soal": "1",
+      "q": "HTML merupkan singkatan dari...",
+      "a": [
+        {
+          "text": "Hyper Link Markup Leaguage",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb330"
+          }
+        },
+        {
+          "text": "Hyper Team Markup Laguage",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb331"
+          }
+        },
+        {
+          "text": "Hyper Tool Markup Laguage",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb332"
+          }
+        },
+        {
+          "text": "Hyper Test Markup Laguage",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb333"
+          }
+        },
+        {
+          "text": "Hyper Text Markup Laguage",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb334"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb32f"
+      }
+    },
+    {
+      "id_soal": "2",
+      "q": " Berikut ini yang menjadi standarisasi Web adalah...",
+      "a": [
+        {
+          "text": "ECMAN (eropean Computer Manufacturers Association)",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb336"
+          }
+        },
+        {
+          "text": "Google",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb337"
+          }
+        },
+        {
+          "text": "W3C (Word Wide Web Consortium)",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb338"
+          }
+        },
+        {
+          "text": "Linux",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb339"
+          }
+        },
+        {
+          "text": "Https",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb33a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb335"
+      }
+    },
+    {
+      "id_soal": "3",
+      "q": "Berikut ini perintah untuk mengganti baris pada HTML adalah...",
+      "a": [
+        {
+          "text": "br",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb33c"
+          }
+        },
+        {
+          "text": "tr",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb33d"
+          }
+        },
+        {
+          "text": "td",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb33e"
+          }
+        },
+        {
+          "text": "p",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb33f"
+          }
+        },
+        {
+          "text": "insert",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb340"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb33b"
+      }
+    },
+    {
+      "id_soal": "4",
+      "q": "Berikut ini yang bukan termasuk tag untuk membuat heading adalah... ",
+      "a": [
+        {
+          "text": "<h4>>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb342"
+          }
+        },
+        {
+          "text": "<h5>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb343"
+          }
+        },
+        {
+          "text": "<h6>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb344"
+          }
+        },
+        {
+          "text": "<h7>",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb345"
+          }
+        },
+        {
+          "text": "Semua Benar",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb346"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb341"
+      }
+    },
+    {
+      "id_soal": "5",
+      "q": "Perintah apakah yang berfungsi untuk menggabungkan beberapa kolom menjadi satu....",
+      "a": [
+        {
+          "text": "BR",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb348"
+          }
+        },
+        {
+          "text": "Textarea",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb349"
+          }
+        },
+        {
+          "text": "Colspan",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb34a"
+          }
+        },
+        {
+          "text": "Checkbox",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb34b"
+          }
+        },
+        {
+          "text": "Tidak ada jawaban yang benar",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb34c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb347"
+      }
+    },
+    {
+      "id_soal": "6",
+      "q": "Sintak yang benar untuk menambahkan warna background atau latar belakang dibawah ini adalah...",
+      "a": [
+        {
+          "text": "<body style=’background-color:green’>",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb34e"
+          }
+        },
+        {
+          "text": "<body style=’background-green’>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb34f"
+          }
+        },
+        {
+          "text": "<body style=’background-:color:green’>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb350"
+          }
+        },
+        {
+          "text": "<background>green</background>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb351"
+          }
+        },
+        {
+          "text": "<latarbelakang>hijau<green>",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb352"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb34d"
+      }
+    },
+    {
+      "id_soal": "7",
+      "q": "Dalam atribut style properti yang digunakan untuk menentukan jenis huruf yaitu...",
+      "a": [
+        {
+          "text": "font-size",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb354"
+          }
+        },
+        {
+          "text": "font-color",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb355"
+          }
+        },
+        {
+          "text": "text-font",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb356"
+          }
+        },
+        {
+          "text": "font-family",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb357"
+          }
+        },
+        {
+          "text": "background-color",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb358"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb353"
+      }
+    },
+    {
+      "id_soal": "8",
+      "q": "Berikut ini atribut yang digunakan untuk mengatur panjang dan lebar suatu elemen adalah...",
+      "a": [
+        {
+          "text": "width dan value",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb35a"
+          }
+        },
+        {
+          "text": "pixel dan cm",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb35b"
+          }
+        },
+        {
+          "text": "width dan height",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb35c"
+          }
+        },
+        {
+          "text": "value and height",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb35d"
+          }
+        },
+        {
+          "text": "body dan value",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb35e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb359"
+      }
+    },
+    {
+      "id_soal": "9",
+      "q": "Dalam tag <from> dalam HTML, tedapat dua jenis method yaitu...",
+      "a": [
+        {
+          "text": "GET & POST",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb360"
+          }
+        },
+        {
+          "text": "HTTPS & POST",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb361"
+          }
+        },
+        {
+          "text": "HTTP & HTTPS",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb362"
+          }
+        },
+        {
+          "text": "POST & SELF",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb363"
+          }
+        },
+        {
+          "text": "HTTP & SELF",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb364"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb35f"
+      }
+    },
+    {
+      "id_soal": "10",
+      "q": "Untuk membuat komentar di HTML adalah",
+      "a": [
+        {
+          "text": "Dimulai dengan <!&diakhiri dengan?",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb366"
+          }
+        },
+        {
+          "text": "Dimulai dengan <!– diakhiri dengan –>",
+          "isCorrect": true,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb367"
+          }
+        },
+        {
+          "text": "Dimulai dengan //diakhiri dengan //",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb368"
+          }
+        },
+        {
+          "text": "Dimulai dengan // diakhiri dengan *//",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb369"
+          }
+        },
+        {
+          "text": "Tidak ada jawaban yang benar",
+          "isCorrect": false,
+          "_id": {
+            "$oid": "63a443ea82957997d21bb36a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "63a443ea82957997d21bb365"
+      }
+    }
+  ],
+  "__v": 0
+}]
