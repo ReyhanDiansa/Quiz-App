@@ -1,43 +1,23 @@
-<%
-  // Connect to the MongoDB database
-  // var url = 'mongodb://localhost:27017/quiz2';
-
-  // MongoClient.connect(url, function(err, db) {
-  //   if (err) throw err;
-
-  //   // Get the "nilais" and "quizzes" collections
-  //   var nilaisCollection = db.collection('nilais');
-  //   var quizzesCollection = db.collection('soal_jawabs');
-
-    // Find the nilais document for the current user
-    Nilai.findOne({id_user: id_user }).toArray(function(err, nilais) {
-      if (err) throw err;
-    console.log(nilais)
-      // Find the quiz document for the current user
-      Quiz.findOne({id_user:id_user, _id:nilais.id_mapel}).toArray( function(err, quiz) {
-        if (err) throw err;
-         quiz.forEach((element) => {
-        // Check if the quiz has been completed
-        if (nilais.isCompleted) {
-          
-          // The quiz has been completed, so disable the button
-%> 
-          <button disabled>
-            <%= quiz.nama_mapel %>
-          </button>
-<%
-        } else {
-          // The quiz has not been completed, so enable the button
-%>
-          <button>
-            <%= quiz.nama_mapel %>
-          </button>
-<%
-        }
-      });
-
-        // db.close();
-      });
-    });
-  
-%>
+<h2 class="text-center mt-3 ">Mata Pelajaran yang tersedia</h2>
+  <div class="d-flex flex-row mt-3 ">
+  <% quiz.forEach((element) => { %>
+      <div class="card ml-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><%= element.nama_mapel %> </h5>
+      
+          <form action="/quiz/start" class="mt-3"   method="post">
+            <input type="hidden" name="id_mapel" value= <%= element.id_mapel %>> 
+    
+            <!-- mencocokkan/mencari apakah ada _id di collection soal_jawabs/Quiz dengan id_mapel di collection nilais/Nilai dengan id user yang sedang login. Apabila cocok maka button disabled, yang artinya user hanya bisa satu kali mengerjakan soal itu  --> 
+            <% if (nilai.some(n => n.id_mapel == element._id )) { %>
+                <h6 class="card-subtitle mb-2 text-muted">Sudah anda kerjakan</h6>
+                <button type="submit" class="btn btn-primary" disabled ><%=element.nama_mapel %> </button>
+              <% } else{%>
+                <h6 class="card-subtitle mb-2 text-muted">Belum anda kerjakan</h6>
+                <button type="submit" class="btn btn-primary"  ><%=element.nama_mapel %> </button>
+              <% } %>
+          </form>
+        </div>
+      </div>
+    <% }) %>
+  </div>

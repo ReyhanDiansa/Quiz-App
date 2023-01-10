@@ -170,34 +170,36 @@ app.post("/login", (req, res) => {
 });
 
 //route page mata pelajaran
-app.get("/mapel", async (req, res) => {
-  //mendapatkan id_user yang sedang login
-  let id_user = "";
-  if (req.session.user) {
-    id_user = req.session.user._id;
-  }
+  app.get("/mapel", async (req, res) => {
+    //mendapatkan id_user yang sedang login
+    let id_user = "";
+    if (req.session.user) {
+      id_user = req.session.user._id;
+    }
 
-  //query mencari data user yang saat ini sedang login di collection nilais/Nilai dengan cara mencocokan id_mapel di collection nilais/Nilai dengan _id di collection soal_jawabs/Quiz. Apabila ada maka user sudah mengerjakan mapel itu, ini berguna untuk button validation
-  const nilai = await Nilai.find({
-    $and: [
-      { id_mapel: { $in: await Quiz.find().distinct("_id") } },
-      { id_user: id_user },
-    ],
-  }).populate("_id");
+    //query mencari data user yang saat ini sedang login di collection nilais/Nilai dengan cara mencocokan id_mapel di collection nilais/Nilai dengan _id di collection soal_jawabs/Quiz. Apabila ada maka user sudah mengerjakan mapel itu, ini berguna untuk button validation
+    const nilai = await Nilai.find({
+      $and: [
+        { id_mapel: { $in: await Quiz.find().distinct("_id") } },
+        { id_user: id_user },
+      ],
+    });
 
-  //mendapatkan semua document di collection Quiz/soal_jawabs
-  const quiz = await Quiz.find();
+    //mendapatkan semua document di collection Quiz/soal_jawabs
+    const quiz = await Quiz.find();
+    const skor =await Nilai.find();
 
-  //set variabel skor menjadi 0/default
-  app.locals.skor = 0;
+    //set variabel skor menjadi 0/default
+    app.locals.skor = 0;
 
-  res.render("mapel2", {
-    layout: "layouts/main-layout",
-    id_user,
-    nilai,
-    quiz,
+    res.render("mapel", {
+      layout: "layouts/main-layout",
+      id_user,
+      skor,
+      nilai,
+      quiz,
+    });
   });
-});
 
 //route halaman rules kuis
 app.get("/rule", (req, res) => {
